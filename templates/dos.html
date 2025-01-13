@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoS Attack Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>DoS Attack Detection</h2>
+        <form action="/dos" method="post">
+            <!-- Input fields for DoS attack detection features -->
+            <input type="text" name="feature1" placeholder="Feature 1" required>
+            <input type="text" name="feature2" placeholder="Feature 2" required>
+            <!-- Add more feature inputs as necessary -->
+            <input type="submit" value="Detect DoS Attack">
+        </form>
+        {% if prediction_text %}
+            <p>{{ prediction_text }}</p>
+        {% endif %}
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
