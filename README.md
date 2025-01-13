@@ -1,7 +1,7 @@
-# Cyber-Security-Detection
-## CyberFind (Team Archons)
+# Cyber Security Detection
+## CyberCheck (Team Archons)
 
-The **Cybersecurity Detection System** is a web-based application designed to identify and detect common cyber threats, including:
+The **Cybersecurity Detection System** is a website designed to identify and detect common cyber threats, including:
 - **Malware Detection**
 - **Phishing Detection**
 - **DoS Attack Detection**
@@ -69,11 +69,12 @@ This tool helps users analyze suspicious URLs and provides insights into potenti
    ```bash
    pip install -r requirements.txt
    ```
-5. Run the application:
+5. Unzip phishing model and store in same directory.
+6. Run the application:
    ```bash
    flask run
    ```
-6. Open your browser and visit `http://127.0.0.1:5000`.
+7. Open your browser and visit `http://127.0.0.1:5000`.
    
 ---
 
@@ -86,6 +87,13 @@ This tool helps users analyze suspicious URLs and provides insights into potenti
 ---
 
 ## Screenshots
+- Home Page ![image](https://github.com/user-attachments/assets/93eab8d5-60a0-412f-a881-36c20aa6bae8)
+
+- Malware Detection![image](https://github.com/user-attachments/assets/0afa3a3e-0e2a-4aa3-bc9f-449f72094950)
+
+- Phishing Detection ![image](https://github.com/user-attachments/assets/1644c396-567f-442c-b423-59e9624aafdc)
+
+- DoS Attack Detection ![image](https://github.com/user-attachments/assets/08f8bb64-2f5a-4f7e-8afb-2a9c843c16d4)
 
 ---
 
@@ -95,7 +103,9 @@ We thank the following people for their contributions to this project:
 - **Archana K M** - (https://github.com/Archana-K-M)
 - **Anirudhh S** - (https://github.com/rudhhstoic)
 - **Varsha G** - (https://github.com/Varshavishnu)
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+  Contributions are welcome! Feel free to fork the repository and submit pull requests.
+  
 ---
 
 ## Contact
