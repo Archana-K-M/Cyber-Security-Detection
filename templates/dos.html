@@ -10,14 +10,12 @@
     <div class="container">
         <h2>DoS Attack Detection</h2>
         <form action="/dos" method="post">
-            <!-- Input fields for DoS attack detection features -->
-            <input type="text" name="url" placeholder="Enter the value" required>
             <!-- Add more feature inputs as necessary -->
             <input type="submit" value="Detect DoS Attack">
         </form>
-        {% if prediction_text %}
+            {% if prediction_text %}
             <p>{{ prediction_text }}</p>
-        {% endif %}
+            {% endif %}
         <a href="/">Back to Home</a>
     </div>
 </body>
