@@ -93,7 +93,7 @@ This tool helps users analyze suspicious URLs and provides insights into potenti
 
 - Phishing Detection ![image](https://github.com/user-attachments/assets/1644c396-567f-442c-b423-59e9624aafdc)
 
-- DoS Attack Detection ![image](https://github.com/user-attachments/assets/08f8bb64-2f5a-4f7e-8afb-2a9c843c16d4)
+- DoS Attack Detection ![image](https://github.com/user-attachments/assets/9489b702-5c54-40be-99fb-f870abed8537)
 
 ---
 
